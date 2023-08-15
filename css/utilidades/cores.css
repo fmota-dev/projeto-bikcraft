@@ -1,23 +1,22 @@
 :root {
-  --c0: #ffffff;
-  --c1: #f7f7f7;
-  --c2: #ededed;
-  --c3: #dedede;
-  --c4: #cccccc;
-  --c5: #b2b2b2;
-  --c6: #9c9c9c;
-  --c7: #717171;
-  --c8: #595959;
-  --c9: #404040;
-  --c10: #2e2e2e;
-  --c11: #111111;
-  --c12: #000000;
-  --p1: #ffbb00;
-  --p2: #e4a30b;
-  --p3: #a66f00;
-  --p4: #664400;
-  --p5: #332200;
-  --gradient: linear-gradient(180deg, #ffbf00, #f2a50c);
+  --cor-0: #ffffff;
+  --cor-1: #f7f7f7;
+  --cor-2: #ededed;
+  --cor-3: #dedede;
+  --cor-4: #cccccc;
+  --cor-5: #b2b2b2;
+  --cor-6: #9c9c9c;
+  --cor-7: #717171;
+  --cor-8: #595959;
+  --cor-9: #404040;
+  --cor-10: #2e2e2e;
+  --cor-11: #111111;
+  --cor-12: #000000;
+  --cor-p1: #ffbb00;
+  --cor-p2: #e4a30b;
+  --cor-p3: #a66f00;
+  --cor-p4: #664400;
+  --cor-p5: #332200;
 }
 
 .cor-0 {
@@ -73,7 +72,4 @@
 }
 .cor-p5 {
   color: var(--cor-p5);
-}
-.gradient {
-  background: var(--gradient);
 }
