@@ -61,7 +61,8 @@
     grid-template-columns: 1fr;
   }
   .tecnologia-conteudo {
-    padding: 60px 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .tecnologia-imagem {
     display: none;

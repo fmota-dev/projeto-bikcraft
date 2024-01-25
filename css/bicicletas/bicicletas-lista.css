@@ -17,6 +17,10 @@
   overflow-x: auto;
 }
 
+#bicicleta .bicicletas-lista ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li {
   flex: 1;
   min-width: 280px;
@@ -28,19 +32,6 @@
 
 .bicicletas-lista img {
   margin-bottom: 16px;
-}
-
-.bicicletas-lista img {
-  margin-bottom: 32px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.bicicleta-lista-item > div {
-  overflow: hidden;
-}
-
-.bicicleta-lista-item img:hover {
-  transform: scale(1.1);
 }
 
 .bicicletas-lista h3 {

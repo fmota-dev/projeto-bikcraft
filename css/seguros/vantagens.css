@@ -14,7 +14,7 @@
 .vantagens ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
-  gap: 80px;
+  gap: 40px 80px;
 }
 
 .vantagens h3,
@@ -27,13 +27,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
   .vantagens h2 {
     margin-bottom: 40px;
   }
-
   .vantagens ul {
-    gap: 50px;
+    gap: 20px;
   }
-
 }

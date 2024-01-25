@@ -20,10 +20,10 @@
 }
 
 .seguros-item {
+  background-color: var(--cor-12);
+  padding: 32px 32px 32px 60px;
   display: grid;
   grid-template-columns: 1fr auto;
-  background-color: var(--cor-12);
-  padding: 32px 60px;
   border-radius: 4px;
 }
 
@@ -32,8 +32,8 @@
 }
 
 .seguros-item span {
-  display: block;
   grid-column: 2;
+  display: block;
   text-align: right;
 }
 
@@ -57,7 +57,7 @@
   display: inline-block;
   width: 13px;
   height: 9px;
-  background-image: url(../../img/icones/lista.svg);
+  background-image: url("../../img/icones/lista.svg");
   position: absolute;
   left: -21px;
 }
